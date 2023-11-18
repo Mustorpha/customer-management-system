@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     #external apps
     'widget_tweaks',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -105,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
@@ -130,7 +132,3 @@ MEDIA_URL = '/images/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-
-
-
-
